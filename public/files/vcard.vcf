@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Барабаш;Артем;;;
+FN:Артем Барабаш
+ORG:Level
+TITLE:Преподаватель физики и математики
+EMAIL:artew44@gmail.com
+TEL;TYPE=cell:+7-925-610-25-09
+ADR;TYPE=work:;;Москва;;;
+URL:https://artew4.github.io/ad_bar.github.io/
+END:VCARD

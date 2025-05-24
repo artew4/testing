@@ -1,0 +1,61 @@
+{
+  "homepage": "https://artew4.github.io/ad_bar.github.io",
+  "name": "adbar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@codemirror/lang-python": "^6.2.0",
+    "@dnd-kit/core": "^6.3.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@uiw/react-codemirror": "^4.23.12",
+    "aos": "^2.3.4",
+    "better-react-mathjax": "^2.3.0",
+    "framer-motion": "^12.10.5",
+    "html-to-image": "^1.11.13",
+    "katex": "^0.16.22",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-katex": "^3.0.1",
+    "react-router-dom": "^7.5.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-syntax-highlighter": "^15.6.1",
+    "react-type-animation": "^3.2.0",
+    "react-typical": "^0.1.3",
+    "react-vertical-timeline-component": "^3.5.3",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
