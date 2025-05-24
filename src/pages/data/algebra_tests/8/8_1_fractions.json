@@ -1,0 +1,185 @@
+{
+    "title": "Тест по теме 'Рациональные дроби и их свойства' (8 класс) - Алгебраические дроби",
+    "questions": [
+      {
+        "question": "Какое выражение является рациональной дробью?",
+        "options": ["$$5$$", "$$\\frac{x+1}{x-2}$$", "$$x^2+3$$", "$$\\sqrt{x}$$"],
+        "correctAnswer": "$$\\frac{x+1}{x-2}$$"
+      },
+      {
+        "question": "При каких значениях переменной $$x$$ дробь $$\\frac{3}{x-5}$$ не имеет смысла?",
+        "options": ["$$x=5$$", "$$x=0$$", "$$x=-5$$", "При любых значениях $$x$$"],
+        "correctAnswer": "$$x=5$$"
+      },
+      {
+        "question": "При каких значениях переменной $$a$$ дробь $$\\frac{a+2}{a(a+3)}$$ не имеет смысла?",
+        "options": ["$$a=0, a=-3$$", "$$a=-2$$", "$$a=0, a=3$$", "$$a=0, a=-2, a=-3$$"],
+        "correctAnswer": "$$a=0, a=-3$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{4a^2b}{8ab^2}$$ (при $$a \\neq 0, b \\neq 0$$)",
+        "options": ["$$\\frac{a}{2b}$$", "$$\\frac{2a}{b}$$", "$$\\frac{a}{b}$$", "$$\\frac{1}{2}$$"],
+        "correctAnswer": "$$\\frac{a}{2b}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{15x^3y}{20xy^2}$$ (при $$x \\neq 0, y \\neq 0$$)",
+        "options": ["$$\\frac{3x^2}{4y}$$", "$$\\frac{3x^2y}{4}$$", "$$\\frac{3x}{4y}$$", "$$\\frac{3xy}{4}$$"],
+        "correctAnswer": "$$\\frac{3x^2}{4y}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{x^2-9}{x-3}$$ (при $$x \\neq 3$$)",
+        "options": ["$$x+3$$", "$$x-3$$", "$$x^2-3$$", "$$x+9$$"],
+        "correctAnswer": "$$x+3$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{y^2-4}{y+2}$$ (при $$y \\neq -2$$)",
+        "options": ["$$y-2$$", "$$y+2$$", "$$y^2-2$$", "$$y-4$$"],
+        "correctAnswer": "$$y-2$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{a^2+6a+9}{a+3}$$ (при $$a \\neq -3$$)",
+        "options": ["$$a+3$$", "$$a-3$$", "$$a+9$$", "$$a^2+3$$"],
+        "correctAnswer": "$$a+3$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{b^2-10b+25}{b-5}$$ (при $$b \\neq 5$$)",
+        "options": ["$$b-5$$", "$$b+5$$", "$$b^2-5$$", "$$b-25$$"],
+        "correctAnswer": "$$b-5$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{m^2-n^2}{m+n}$$ (при $$m \\neq -n$$)",
+        "options": ["$$m-n$$", "$$m+n$$", "$$m^2-n$$", "$$m-n^2$$"],
+        "correctAnswer": "$$m-n$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{2x+4}{x^2-4}$$ (при $$x \\neq \\pm 2$$)",
+        "options": ["$$\\frac{2}{x-2}$$", "$$\\frac{2}{x+2}$$", "$$\\frac{2}{x^2}$$", "$$\\frac{1}{x-2}$$"],
+        "correctAnswer": "$$\\frac{2}{x-2}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{3y-9}{y^2-9}$$ (при $$y \\neq \\pm 3$$)",
+        "options": ["$$\\frac{3}{y+3}$$", "$$\\frac{3}{y-3}$$", "$$\\frac{3}{y^2}$$", "$$\\frac{1}{y+3}$$"],
+        "correctAnswer": "$$\\frac{3}{y+3}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{a^2-5a}{a^2-25}$$ (при $$a \\neq \\pm 5$$)",
+        "options": ["$$\\frac{a}{a+5}$$", "$$\\frac{a}{a-5}$$", "$$\\frac{a-5}{a+5}$$", "$$\\frac{1}{a+5}$$"],
+        "correctAnswer": "$$\\frac{a}{a+5}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{b^2+3b}{b^2+6b+9}$$ (при $$b \\neq -3$$)",
+        "options": ["$$\\frac{b}{b+3}$$", "$$\\frac{b}{b-3}$$", "$$\\frac{b+3}{b}$$", "$$\\frac{1}{b+3}$$"],
+        "correctAnswer": "$$\\frac{b}{b+3}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{x^2-y^2}{x^2-2xy+y^2}$$ (при $$x \\neq y$$)",
+        "options": ["$$\\frac{x+y}{x-y}$$", "$$\\frac{x-y}{x+y}$$", "$$x+y$$", "$$x-y$$"],
+        "correctAnswer": "$$\\frac{x+y}{x-y}$$"
+      },
+      {
+        "question": "Приведите дробь $$\\frac{1}{x}$$ к знаменателю $$2x$$",
+        "options": ["$$\\frac{2}{2x}$$", "$$\\frac{x}{2x}$$", "$$\\frac{1}{2x}$$", "$$\\frac{2x}{2x}$$"],
+        "correctAnswer": "$$\\frac{2}{2x}$$"
+      },
+      {
+        "question": "Приведите дробь $$\\frac{a}{a+1}$$ к знаменателю $$(a+1)(a-1)$$",
+        "options": ["$$\\frac{a(a-1)}{(a+1)(a-1)}$$", "$$\\frac{a(a+1)}{(a+1)(a-1)}$$", "$$\\frac{a}{a-1}$$", "$$\\frac{a}{a+1}$$"],
+        "correctAnswer": "$$\\frac{a(a-1)}{(a+1)(a-1)}$$"
+      },
+      {
+        "question": "Приведите дробь $$\\frac{2}{x-3}$$ к знаменателю $$x^2-9$$",
+        "options": ["$$\\frac{2(x+3)}{x^2-9}$$", "$$\\frac{2(x-3)}{x^2-9}$$", "$$\\frac{2}{x+3}$$", "$$\\frac{2(x^2-9)}{x^2-9}$$"],
+        "correctAnswer": "$$\\frac{2(x+3)}{x^2-9}$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{3}{x} + \\frac{5}{x}$$ (при $$x \\neq 0$$)",
+        "options": ["$$\\frac{8}{x}$$", "$$\\frac{8}{x^2}$$", "$$\\frac{15}{x}$$", "$$\\frac{15}{x^2}$$"],
+        "correctAnswer": "$$\\frac{8}{x}$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{a}{a+1} + \\frac{1}{a+1}$$ (при $$a \\neq -1$$)",
+        "options": ["$$1$$", "$$\\frac{a+1}{a+1}$$", "$$\\frac{a+1}{(a+1)^2}$$", "$$\\frac{a-1}{a+1}$$"],
+        "correctAnswer": "$$1$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{7}{y^2} - \\frac{4}{y^2}$$ (при $$y \\neq 0$$)",
+        "options": ["$$\\frac{3}{y^2}$$", "$$\\frac{3}{0}$$", "$$\\frac{11}{y^2}$$", "$$\\frac{28}{y^4}$$"],
+        "correctAnswer": "$$\\frac{3}{y^2}$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{b^2}{b-2} - \\frac{4}{b-2}$$ (при $$b \\neq 2$$)",
+        "options": ["$$b+2$$", "$$b-2$$", "$$\\frac{b^2-4}{b-2}$$", "$$b$$"],
+        "correctAnswer": "$$b+2$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{1}{x} + \\frac{1}{y}$$ (при $$x \\neq 0, y \\neq 0$$)",
+        "options": ["$$\\frac{y+x}{xy}$$", "$$\\frac{x+y}{x+y}$$", "$$\\frac{1}{xy}$$", "$$\\frac{2}{x+y}$$"],
+        "correctAnswer": "$$\\frac{y+x}{xy}$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{a}{2} + \\frac{b}{3}$$",
+        "options": ["$$\\frac{3a+2b}{6}$$", "$$\\frac{a+b}{5}$$", "$$\\frac{ab}{6}$$", "$$\\frac{3a+2b}{5}$$"],
+        "correctAnswer": "$$\\frac{3a+2b}{6}$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{1}{m} - \\frac{1}{n}$$ (при $$m \\neq 0, n \\neq 0$$)",
+        "options": ["$$\\frac{n-m}{mn}$$", "$$\\frac{m-n}{mn}$$", "$$\\frac{1}{mn}$$", "$$\\frac{n-m}{m-n}$$"],
+        "correctAnswer": "$$\\frac{n-m}{mn}$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{x}{4} - \\frac{y}{5}$$",
+        "options": ["$$\\frac{5x-4y}{20}$$", "$$\\frac{x-y}{1}$$", "$$\\frac{xy}{20}$$", "$$\\frac{5x-4y}{1}$$"],
+        "correctAnswer": "$$\\frac{5x-4y}{20}$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{1}{x-1} + \\frac{1}{x+1}$$ (при $$x \\neq \\pm 1$$)",
+        "options": ["$$\\frac{2x}{x^2-1}$$", "$$\\frac{2}{x^2-1}$$", "$$\\frac{x}{x^2-1}$$", "$$\\frac{x^2+1}{x^2-1}$$"],
+        "correctAnswer": "$$\\frac{2x}{x^2-1}$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{2}{a+2} - \\frac{1}{a-2}$$ (при $$a \\neq \\pm 2$$)",
+        "options": ["$$\\frac{a-6}{a^2-4}$$", "$$\\frac{a+6}{a^2-4}$$", "$$\\frac{1}{a^2-4}$$", "$$\\frac{3}{a^2-4}$$"],
+        "correctAnswer": "$$\\frac{a-6}{a^2-4}$$"
+      },
+      {
+        "question": "Сложите дроби $$\\frac{x}{x-y} + \\frac{y}{y-x}$$ (при $$x \\neq y$$)",
+        "options": ["$$1$$", "$$-1$$", "$$\\frac{x+y}{x-y}$$", "$$0$$"],
+        "correctAnswer": "$$1$$"
+      },
+      {
+        "question": "Вычтите дроби $$\\frac{a}{a-b} - \\frac{b}{a-b}$$ (при $$a \\neq b$$)",
+        "options": ["$$1$$", "$$-1$$", "$$\\frac{a+b}{a-b}$$", "$$0$$"],
+        "correctAnswer": "$$1$$"
+      },
+      {
+        "question": "Умножьте дроби $$\\frac{2a}{3b} \\cdot \\frac{9b}{4a}$$ (при $$a \\neq 0, b \\neq 0$$)",
+        "options": ["$$\\frac{3}{2}$$", "$$\\frac{18ab}{12ab}$$", "$$\\frac{6a}{12b}$$", "$$\\frac{18}{12}$$"],
+        "correctAnswer": "$$\\frac{3}{2}$$"
+      },
+      {
+        "question": "Умножьте дроби $$\\frac{x^2-4}{x+1} \\cdot \\frac{x+1}{x-2}$$ (при $$x \\neq -1, x \\neq 2$$)",
+        "options": ["$$x+2$$", "$$x-2$$", "$$x^2-4$$", "$$x^2-2$$"],
+        "correctAnswer": "$$x+2$$"
+      },
+      {
+        "question": "Умножьте дроби $$\\frac{y^2-9}{y^2} \\cdot \\frac{y}{y-3}$$ (при $$y \\neq 0, y \\neq 3$$)",
+        "options": ["$$\\frac{y+3}{y}$$", "$$\\frac{y-3}{y}$$", "$$\\frac{y+3}{y^2}$$", "$$y+3$$"],
+        "correctAnswer": "$$\\frac{y+3}{y}$$"
+      },
+      {
+        "question": "Разделите дроби $$\\frac{5x}{y} : \\frac{10x}{y^2}$$ (при $$x \\neq 0, y \\neq 0$$)",
+        "options": ["$$\\frac{y}{2}$$", "$$2y$$", "$$\\frac{1}{2y}$$", "$$\\frac{50x^2}{y^3}$$"],
+        "correctAnswer": "$$\\frac{y}{2}$$"
+      },
+      {
+        "question": "Разделите дроби $$\\frac{a^2-1}{a+2} : \\frac{a-1}{a+2}$$ (при $$a \\neq \\pm 2, a \\neq 1$$)",
+        "options": ["$$a+1$$", "$$a-1$$", "$$\\frac{a+1}{a-1}$$", "$$\\frac{a-1}{a+1}$$"],
+        "correctAnswer": "$$a+1$$"
+      },
+      {
+        "question": "Разделите дроби $$\\frac{m^2+5m}{m-3} : \\frac{m+5}{m^2-9}$$ (при $$m \\neq 3, m \\neq -3, m \\neq -5$$)",
+        "options": ["$$m(m+3)$$", "$$m(m-3)$$", "$$m(m+5)$$", "$$\\frac{m}{m+3}$$"],
+        "correctAnswer": "$$m(m+3)$$"
+      }
+    ]
+  }

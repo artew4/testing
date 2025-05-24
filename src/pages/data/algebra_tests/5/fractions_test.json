@@ -1,0 +1,105 @@
+{
+    "title": "Тест по дробям",
+    "questions": [
+      {
+        "question": "Сократите дробь $$\\frac{4}{8}$$",
+        "options": ["$$\\frac{1}{2}$$", "$$\\frac{2}{4}$$", "$$\\frac{3}{4}$$", "$$\\frac{1}{4}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Сложите $$\\frac{1}{3} + \\frac{1}{6}$$",
+        "options": ["$$\\frac{2}{6}$$", "$$\\frac{1}{2}$$", "$$\\frac{1}{9}$$", "$$\\frac{5}{6}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Вычтите $$\\frac{3}{4} - \\frac{1}{2}$$",
+        "options": ["$$\\frac{1}{2}$$", "$$\\frac{1}{4}$$", "$$\\frac{2}{4}$$", "$$\\frac{3}{2}$$"],
+        "correctAnswer": "$$\\frac{1}{4}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{9}{12}$$",
+        "options": ["$$\\frac{3}{4}$$", "$$\\frac{2}{3}$$", "$$\\frac{6}{9}$$", "$$\\frac{4}{5}$$"],
+        "correctAnswer": "$$\\frac{3}{4}$$"
+      },
+      {
+        "question": "Сложите $$\\frac{2}{5} + \\frac{1}{5}$$",
+        "options": ["$$\\frac{3}{10}$$", "$$\\frac{1}{2}$$", "$$\\frac{3}{5}$$", "$$\\frac{4}{5}$$"],
+        "correctAnswer": "$$\\frac{3}{5}$$"
+      },
+      {
+        "question": "Вычтите $$\\frac{5}{6} - \\frac{1}{3}$$",
+        "options": ["$$\\frac{2}{3}$$", "$$\\frac{1}{2}$$", "$$\\frac{3}{6}$$", "$$\\frac{4}{6}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Сколько будет $$\\frac{3}{8} + \\frac{1}{8}$$",
+        "options": ["$$\\frac{4}{8}$$", "$$\\frac{1}{2}$$", "$$\\frac{5}{8}$$", "$$\\frac{3}{4}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{15}{25}$$",
+        "options": ["$$\\frac{3}{5}$$", "$$\\frac{5}{3}$$", "$$\\frac{2}{5}$$", "$$\\frac{4}{5}$$"],
+        "correctAnswer": "$$\\frac{3}{5}$$"
+      },
+      {
+        "question": "Найдите разность $$\\frac{7}{8} - \\frac{3}{8}$$",
+        "options": ["$$\\frac{3}{8}$$", "$$\\frac{4}{8}$$", "$$\\frac{1}{2}$$", "$$\\frac{5}{8}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Сложите $$\\frac{1}{2} + \\frac{1}{4}$$",
+        "options": ["$$\\frac{2}{4}$$", "$$\\frac{3}{4}$$", "$$\\frac{1}{6}$$", "$$\\frac{5}{8}$$"],
+        "correctAnswer": "$$\\frac{3}{4}$$"
+      },
+      {
+        "question": "Упростите $$\\frac{18}{24}$$",
+        "options": ["$$\\frac{3}{4}$$", "$$\\frac{2}{3}$$", "$$\\frac{6}{8}$$", "$$\\frac{9}{12}$$"],
+        "correctAnswer": "$$\\frac{3}{4}$$"
+      },
+      {
+        "question": "Найдите сумму $$\\frac{2}{3} + \\frac{1}{6}$$",
+        "options": ["$$\\frac{3}{6}$$", "$$\\frac{5}{6}$$", "$$\\frac{4}{6}$$", "$$\\frac{2}{5}$$"],
+        "correctAnswer": "$$\\frac{5}{6}$$"
+      },
+      {
+        "question": "Сколько будет $$\\frac{6}{10} - \\frac{1}{5}$$",
+        "options": ["$$\\frac{3}{5}$$", "$$\\frac{1}{2}$$", "$$\\frac{2}{5}$$", "$$\\frac{4}{10}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{12}{18}$$",
+        "options": ["$$\\frac{2}{3}$$", "$$\\frac{3}{5}$$", "$$\\frac{4}{6}$$", "$$\\frac{1}{3}$$"],
+        "correctAnswer": "$$\\frac{2}{3}$$"
+      },
+      {
+        "question": "Сложите $$\\frac{5}{10} + \\frac{1}{10}$$",
+        "options": ["$$\\frac{3}{5}$$", "$$\\frac{2}{10}$$", "$$\\frac{6}{10}$$", "$$\\frac{5}{6}$$"],
+        "correctAnswer": "$$\\frac{6}{10}$$"
+      },
+      {
+        "question": "Вычтите $$\\frac{2}{3} - \\frac{1}{6}$$",
+        "options": ["$$\\frac{1}{3}$$", "$$\\frac{1}{2}$$", "$$\\frac{2}{6}$$", "$$\\frac{3}{6}$$"],
+        "correctAnswer": "$$\\frac{1}{2}$$"
+      },
+      {
+        "question": "Найдите сумму $$\\frac{1}{4} + \\frac{3}{4}$$",
+        "options": ["$$\\frac{4}{4}$$", "$$\\frac{1}{2}$$", "$$\\frac{3}{2}$$", "$$\\frac{3}{8}$$"],
+        "correctAnswer": "$$\\frac{4}{4}$$"
+      },
+      {
+        "question": "Сократите дробь $$\\frac{16}{20}$$",
+        "options": ["$$\\frac{4}{5}$$", "$$\\frac{3}{4}$$", "$$\\frac{2}{5}$$", "$$\\frac{5}{6}$$"],
+        "correctAnswer": "$$\\frac{4}{5}$$"
+      },
+      {
+        "question": "Сложите $$\\frac{2}{3} + \\frac{1}{3}$$",
+        "options": ["$$\\frac{3}{3}$$", "$$\\frac{2}{6}$$", "$$\\frac{1}{2}$$", "$$\\frac{3}{6}$$"],
+        "correctAnswer": "$$\\frac{3}{3}$$"
+      },
+      {
+        "question": "Вычтите $$\\frac{3}{5} - \\frac{2}{5}$$",
+        "options": ["$$\\frac{1}{5}$$", "$$\\frac{2}{5}$$", "$$\\frac{3}{10}$$", "$$\\frac{5}{5}$$"],
+        "correctAnswer": "$$\\frac{1}{5}$$"
+      }
+    ]
+  }
