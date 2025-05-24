@@ -1,0 +1,167 @@
+@use '_variables' as v;
+//@import 'media';
+
+
+// .container {
+//   text-align: center;
+//   max-width: 90%;
+//   width: 800px;
+//   margin: 50px auto;
+//   background: white;
+//   padding: 20px;
+//   border-radius: 10px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//   position: relative;
+  
+
+//   @media (max-width: 600px) {
+//     width: 90%;
+//     padding: 15px;
+//   }
+
+// }
+
+.profile-photo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  @media (max-width: 600px) {
+    position: static;
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.example_wrapper {
+  height: 100px;
+  font-size: 80%;
+  max-width: 80%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
+}
+
+
+.gsheets-photo {
+  width: 200px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+.no-padding-link {
+  padding: 0 !important;
+  background: none !important;
+}
+
+
+h1 {
+  color: #333;
+  width: 80%;
+
+  @media (max-width: 600px) {
+    font-size: 22px;
+  }
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  text-align: justify;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  a {
+    display: inline-flex; /* Меняем на inline-flex для красивого transform */
+    align-items: center;
+    justify-content: center;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+    min-width: 180px;
+    text-align: center;
+
+    &:hover {
+      background-color: #005bb5;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+      padding: 12px 25px;
+    }
+  }
+}
+
+.social-links {
+  a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0073e6;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.lessons-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+//анимированное появление страницы
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}

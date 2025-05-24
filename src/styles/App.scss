@@ -1,0 +1,48 @@
+@use 'variables' as v;
+html {
+  overflow-y: scroll;
+}
+html, body, #root {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: v.$background_color;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.container-main {
+    text-align: center;
+    max-width: v.$container_max_width;
+    width: v.$container_width;
+    margin: 10px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  
+    @media (max-width: 600px) {
+      width: 90%;
+      padding: 15px;
+    }
+  
+  }

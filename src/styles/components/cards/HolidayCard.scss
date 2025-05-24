@@ -1,0 +1,71 @@
+.holiday-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px; // Уменьшено
+    box-sizing: border-box;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+  }
+  
+  .holiday-header {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.8rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    background: #b22222;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    z-index: 2;
+  }
+  
+  .holiday-icon {
+    margin-right: 6px;
+    font-size: 1rem;
+  }
+  
+  .holiday-image-container {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .holiday-image {
+    width: 100%;
+    height: 220px; // Уменьшенная высота
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .holiday-text-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(0, 0, 0, 0.55);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  .holiday-text {
+    font-size: 1.2rem; // Немного уменьшено
+    font-weight: bold;
+    color: #fffacd;
+    text-align: center;
+    margin: 0;
+  }
+  

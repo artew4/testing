@@ -1,0 +1,114 @@
+.physics-tests-page {
+  padding: 2rem;
+  min-height: 100%;
+  overflow-x: hidden; // предотвратить горизонтальную прокрутку
+
+  &__title {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+
+  &__tab-buttons {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+
+    button {
+      padding: 0.6rem 1.2rem;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      min-width: 100px;
+
+      &.active {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      &:hover {
+        background-color: #007bff;
+        border-color: #2a649d;
+        color: white;
+      }
+    }
+  }
+
+  &__tab-content {
+    animation: fadeIn 0.3s ease-in-out;
+    padding: 0 1rem;
+  }
+
+  &__cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  &__test-trigger {
+    background-color: white;
+    border: 1px solid #ced4da;
+    padding: 1.2rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.15s ease-in-out;
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .physics-tests-page {
+    padding: 1rem 0;
+
+    &__tab-buttons {
+      gap: 0.5rem;
+      padding: 0 0.5rem;
+    }
+
+    &__test-trigger {
+      padding: 1rem;
+
+      button {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.8rem;
+      }
+    }
+  }
+}

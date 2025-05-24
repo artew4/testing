@@ -1,0 +1,144 @@
+.lab-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      color: #222;
+    }
+  }
+  
+  .beaker-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .beaker {
+    width: 120px;
+    height: 200px;
+    border: 3px solid #333;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  .water {
+    background: #1E90FF;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    transition: height 0.5s ease;
+  }
+  
+  .object {
+    width: 60px;
+    height: 60px;
+    background: #B22222;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    margin: 2rem auto;
+    user-select: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .object-inside {
+    width: 60px;
+    height: 60px;
+    background: #B22222;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 25%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .volume-display {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .input-area {
+    margin: 1rem 0;
+  
+    label {
+      font-size: 1rem;
+      color: #333;
+  
+      input {
+        margin-left: 0.5rem;
+        padding: 0.3rem 0.5rem;
+        width: 80px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .formula {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #222;
+  
+    strong {
+      font-weight: bold;
+    }
+  }
+  
+  .reset-btn {
+    margin-top: 2rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background: #eee;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background: #ddd;
+    }
+  }
+  
+  /* Mobile responsive tweaks */
+  @media (max-width: 600px) {
+    .beaker {
+      width: 100px;
+      height: 180px;
+    }
+  
+    .object,
+    .object-inside {
+      width: 50px;
+      height: 50px;
+      font-size: 0.9rem;
+    }
+  
+    .formula {
+      font-size: 1rem;
+    }
+  
+    .reset-btn {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,8 @@
+@mixin mobile {
+  @media (max-width: 600px) {
+    .container {
+        width: 35%;
+        padding: 15px;
+    }
+  }
+}

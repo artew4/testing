@@ -1,0 +1,88 @@
+.exam-schedule-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .exam-schedule-block {
+    // общие стили
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+  
+    &.oge {
+    //   background: #fff8cc; // нежно-желтый
+    //   .exam-schedule-header {
+    //     background: #ffd700; // золотой
+    //     color: #333300;
+        background: #e9ffcc; // нежно-желтый
+      .exam-schedule-header {
+        background: #1aff00; // золотой
+        color: #143300;
+      }
+    }
+  
+    &.ege {
+      background: #e0f0ff; // нежно-голубой
+      .exam-schedule-header {
+        background: #3399ff; // ярко-синий
+        color: #ffffff;
+      }
+    }
+  }
+  
+  
+  
+  .exam-schedule-header {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    // color: #aa7a00; /* насыщенный жёлто-коричневый текст */
+    // background: #fff2b2; /* ярче, чем фон, но в той же гамме */
+    color: #73f403; /* насыщенный жёлто-коричневый текст */
+    background: #256500; /* ярче, чем фон, но в той же гамме */
+    padding: 0.3rem 0.6rem;
+    border-radius: 8px;
+  }
+  
+  .exam-schedule-header .exam-schedule-icon {
+    margin-right: 6px;
+    font-size: 1rem;
+  }
+  
+  .exam-schedule-header .exam-schedule-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .exam-schedule-image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 2rem 0 1rem;
+  }
+  
+  .exam-schedule-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  

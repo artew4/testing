@@ -1,0 +1,153 @@
+.algebra-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.algebra-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+}
+
+.grade-block {
+  margin-bottom: 3rem;
+  background: #f8faff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.grade-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2176ff;
+  text-align: center;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.topic-btn {
+  padding: 1rem;
+  background: #e0ecff;
+  border: 2px solid #2176ff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+
+  &:hover {
+    background: #cde0ff;
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+.modal {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.modal-content-scroll {
+  overflow-y: auto;
+  max-height: 70vh;
+  padding-right: 0.5rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #888;
+  cursor: pointer;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.modal-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
+.modal p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+
+.topic-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 4px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  .btn-icon {
+    font-size: 1.5em;
+    line-height: 1;
+  }
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+.test-trigger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #1d4ed8;
+    }
+  }
+}
